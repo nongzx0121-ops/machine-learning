@@ -1,0 +1,31 @@
+# Python environments
+.venv/
+venv/
+env/
+llm_env/
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Generated files and large local assets
+_tmp/
+.cache/
+outputs/
+checkpoints/
+models/
+datasets/
+*.log
+
+# Windows metadata
+Thumbs.db
+Desktop.ini
